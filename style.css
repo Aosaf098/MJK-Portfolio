@@ -25,6 +25,7 @@
     position: absolute;
     top: 30px;
     left: 200px;
+    cursor: pointer;
 }
 .navbar .logo span{
     color: tomato;
@@ -63,4 +64,54 @@
     font-weight: 700;
     font-size: 16px;
     cursor: pointer;
+}
+
+/* Hero left Side Styles */
+
+.hero-content{
+    margin-top: 50px;
+    /* border: 5px solid hotpink; */
+    display: flex;
+    justify-content: space-around;
+}
+.hero-content .hero-left-container{
+    width: 800px;
+    height: 356px;
+    /* border: 5px solid black; */
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.hero-left-container h4{
+    color: rgb(71, 71, 71);
+    font-size: 40px;
+    font-weight: 600;
+}
+.hero-left-container h1{
+    color: rgb(24, 24, 24);
+    font-size: 60px;
+    font-weight: 700;
+}
+.hero-left-container h1 span{
+    color: tomato;
+}
+.hero-left-container p{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    /* border: 3px solid yellow; */
+    margin-top: 25px;
+}
+.hero-content .hero-right-container{
+    width: 720px;
+    height: 450px;
+    /* border: 5px solid purple; */
+    /* background-image: url(images/mjk.png); */
+    margin-bottom: 80px;
+    /* background-repeat: no-repeat; */
+}
+.hero-right-container img{
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: cover;
 }
