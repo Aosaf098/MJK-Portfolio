@@ -29,7 +29,7 @@
     cursor: pointer;
 }
 .navbar .logo span{
-    color: tomato;
+    color: rgb(253, 110, 10);
 }
 .navbar ul{
     width: 200px;
@@ -69,6 +69,9 @@
 
 /* Hero left Side Styles */
 
+/* .hero{
+    border: 5px solid red;
+} */
 .hero-content{
     margin-top: 50px;
     /* border: 5px solid hotpink; */
@@ -115,7 +118,7 @@
     font-weight: 700;
 }
 .hero-left-container h1 span{
-    color: tomato;
+    color: rgb(253, 110, 10);
 }
 .hero-left-container p{
     color: rgb(117, 117, 117);
@@ -131,10 +134,14 @@
     /* border: 5px solid purple; */
     /* background-image: url(images/mjk.png); */
     margin-bottom: 80px;
+    position: relative;
     /* background-repeat: no-repeat; */
 }
+
 .hero-right-container img{
-   max-width: 100%;
-   max-height: 100%;
-   object-fit: cover;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    width: 700px;
+    /* height: 525px; */
 }
