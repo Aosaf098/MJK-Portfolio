@@ -171,7 +171,7 @@
 }
 .about-me .about-me-right{
     width: 900px;
-    height: 600px;
+    height: 630px;
     /* border: 3px solid greenyellow; */
     display: flex;
     flex-direction: column;
@@ -183,6 +183,16 @@
     font-size: 50px;
     margin-top: 40px;
 }
+.about-me-right div{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    /* border: 1px solid rebeccapurple; */
+    width: 600px;
+    position: relative;
+    left: -15px;
+    top: 20px;
+}
 .about-me-right div h3{
     width: 600px;
     height: 80px;
@@ -191,11 +201,10 @@
     font-weight: 600;
     text-align: start;
     position: relative;
-    left: -15px;
+    left: 0px;
     top: 40px;
-    margin-top: 20px;
-}
-.about-me-right div h3{
+    margin-top: 10px;
+    margin-left: 10px;
     letter-spacing: 1.5px;
     font-weight: 400;
 }
@@ -214,7 +223,7 @@
 .My-Bands h1{
     margin: 10px;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
 }
 .My-Bands .My-Bands-Content{
     width: 1800px;
@@ -225,75 +234,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.My-Bands-Content .tool{
-    width: 400px;
-    height: 500px;
-    /* border: 1px solid whitesmoke; */
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    background: rgb(255, 255, 255);
-    position: relative;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-.tool img{
-    width: 45%;
-    max-height: 25%;
-    display: block;
-    /* border: 1px solid purple; */
-    position: relative;
-    top: 10px;
-    left: 100px;
-}
-.tool h2{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-}
-.tool p{
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: left;
-    color: rgb(117, 117, 117);
-    line-height: 40px;
-    letter-spacing: 1.5px;
-}
-.My-Bands-Content .a-perfect-circle{
-    width: 400px;
-    height: 500px;
-    /* border: 2px solid red; */
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    background: rgb(255, 255, 255);
-    position: relative;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-.a-perfect-circle img{
-    width: 45%;
-    max-height: 25%;
-    display: block;
-    /* border: 1px solid purple; */
-    position: relative;
-    top: 10px;
-    left: 100px;
-}
-.a-perfect-circle h2{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-}
-.a-perfect-circle p{
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: left;
-    color: rgb(117, 117, 117);
-    line-height: 40px;
-    letter-spacing: 1.5px;
-}
-.My-Bands-Content .puscifer{
+.My-Bands-Content .bands-card{
     width: 450px;
-    height: 500px;
+    height: 520px;
     /* border: 2px solid red; */
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -302,21 +245,22 @@
     padding-left: 16px;
     padding-right: 16px;
 }
-.puscifer img{
-    width: 45%;
-    max-height: 25%;
+.bands-card img{
+    width: 48%;
+    height: 30%;
     display: block;
     /* border: 1px solid purple; */
     position: relative;
     top: 10px;
-    left: 100px;
+    left: 110px;
+    cursor: pointer;
 }
-.puscifer h2{
+.bands-card h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
 }
-.puscifer p{
+.bands-card p{
     margin-top: 20px;
     font-size: 20px;
     text-align: left;
@@ -324,4 +268,6 @@
     line-height: 40px;
     letter-spacing: 1.5px;
 }
+
+
 
