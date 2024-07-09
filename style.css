@@ -202,3 +202,126 @@
 .Bi-Bold{
     font-weight: 700;
 }
+
+/* My Bands Styles Here */
+
+.My-Bands{
+    width: 1870px;
+    height: 750px;
+    /* border: 3px solid black; */
+    margin: 0 auto;
+}
+.My-Bands h1{
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.My-Bands .My-Bands-Content{
+    width: 1800px;
+    height: 600px;
+    /* border: 4px solid green; */
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.My-Bands-Content .tool{
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid whitesmoke; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.tool img{
+    width: 45%;
+    max-height: 25%;
+    display: block;
+    /* border: 1px solid purple; */
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.tool h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.tool p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(117, 117, 117);
+    line-height: 40px;
+    letter-spacing: 1.5px;
+}
+.My-Bands-Content .a-perfect-circle{
+    width: 400px;
+    height: 500px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.a-perfect-circle img{
+    width: 45%;
+    max-height: 25%;
+    display: block;
+    /* border: 1px solid purple; */
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.a-perfect-circle h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.a-perfect-circle p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(117, 117, 117);
+    line-height: 40px;
+    letter-spacing: 1.5px;
+}
+.My-Bands-Content .puscifer{
+    width: 450px;
+    height: 500px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    position: relative;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.puscifer img{
+    width: 45%;
+    max-height: 25%;
+    display: block;
+    /* border: 1px solid purple; */
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.puscifer h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.puscifer p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(117, 117, 117);
+    line-height: 40px;
+    letter-spacing: 1.5px;
+}
+
