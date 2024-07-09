@@ -8,6 +8,7 @@
 }
 
 
+
 .navbar{
     width: 1920px;
     height: 130px;
@@ -81,6 +82,28 @@
     margin-left: 80px;
     margin-top: 80px;
 }
+.hero-left-container .hero-left-button{
+    width: 800px;
+    height: 100px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-left-button button{
+    padding: 16px 20px 16px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(253, 110, 10);
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 16px;
+}
+.hero-left-button button i{
+    margin-right: 10px;
+}
+
 .hero-left-container h4{
     color: rgb(71, 71, 71);
     font-size: 40px;
