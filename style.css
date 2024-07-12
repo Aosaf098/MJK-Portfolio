@@ -236,37 +236,67 @@
 }
 .My-Bands-Content .bands-card{
     width: 450px;
-    height: 520px;
+    height: 480px;
     /* border: 2px solid red; */
-    border-radius: 5px;
+    border-radius: 16px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     background: rgb(255, 255, 255);
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
-    padding-left: 16px;
-    padding-right: 16px;
 }
-.bands-card img{
-    width: 48%;
-    height: 30%;
-    display: block;
-    /* border: 1px solid purple; */
-    position: relative;
-    top: 10px;
-    left: 110px;
-    cursor: pointer;
+.bands-card .img-container{
+    width: 100%;
+    height: 25%;
+    /* border: 2px solid green; */
+    background-position: center;
+    background-size: 180px 180px;
+    background-repeat: no-repeat;
 }
+.bands-card .tool{
+    background-image: url(images/tool.png);
+}
+.bands-card .apc{
+    background-image: url(images/apc.png);
+}
+.bands-card .puscifer{
+    background-image: url(images/puscifer2.webp);
+}
+/* .bands-card img{
+    max-width: 100%;
+    height: 35%;
+    border: 2px solid blue;
+    object-fit: contain;
+} */
 .bands-card h2{
+    margin-top: 20px;
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
+    /* border: 2px solid black; */
 }
 .bands-card p{
     margin-top: 20px;
-    font-size: 20px;
-    text-align: left;
+    font-size: 16px;
+    text-align: justify;
     color: rgb(117, 117, 117);
-    line-height: 40px;
-    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+.bands-card span{
+    margin-top: 60px;
+    /* border: 2px solid tomato; */
+    position: absolute;
+    top: 75%;
+    left: 5%;
+} 
+.bands-card span a{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(24, 24, 24);
+    text-decoration: underline;
 }
 
 
