@@ -28,7 +28,7 @@ function changeDown() {
 
 startChange();
 
-$(".slider-arrow").click(function(){
+$(".slider-arrow .next").click(function(){
     stopChange();
     changeUp();
     startChange();

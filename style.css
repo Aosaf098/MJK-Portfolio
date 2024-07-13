@@ -309,8 +309,8 @@
 .mjk-quote h1{
     font-size: 40px;
     font-weight: 800;
-    /* border: 2px solid black; */
     margin-top: -10px;
+    /* border: 2px solid black; */
 }
 .mjk-quote .quote-box{
     width: 80%;
@@ -369,7 +369,62 @@
     font-style: italic;
 }
 
+/* Misc Work Styles Here */
 
+.misc h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.misc-work{
+    width: 100%;
+    height: 80rem;
+    margin-top: 70px;
+    /* border: 4px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.misc-work-container{
+    width: 70%;
+    height: 30rem;
+    /* border: 3px solid blue; */
+    border-radius: 16px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.misc-work-container .misc-info{
+    width: 40%;
+    height: 20rem;
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+}
+.misc-work-container .misc-title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: start;
+}
+.misc-work-container .misc-subtitle{
+    color: rgb(117, 117, 117);
+    text-align: justify;
+}
+.misc-work-container .misc-img{
+    width: 35%;
+    height: 18rem;
+}
+.misc-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
 
 
 
