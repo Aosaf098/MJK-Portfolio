@@ -9,16 +9,36 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="hero">
-        <nav class="navbar">
-            <h1 class="logo">M<span class="orange">J</span>K</h1>
-            <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Lyrics</a></li>
-            </ul>
-            <button class="btn">Hire me</button>
-        </nav>
-        <section class="hero-content">
+    <header>
+        <section>
+            <div class="hero">
+                <div id="logo">
+                    <h1><a href="">M<span class="orange">J</span>K</a></h1>
+                </div>
+                <div class="nav-container">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#lyrics">Lyrics</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li id="hire-me"><a href="#hire-me">Hire Me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#lyrics">Lyrics</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li id="Hire-me"><a href="#hire-me">Hire Me</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="hero-content hide">
             <div class="hero-left-container">
                 <h4>Hi, I am</h4>
                 <h1>Maynard <span class="orange">James</span> Keenan</h1>
@@ -34,7 +54,7 @@
         </section>
     </header>
     <main>
-        <section class="about-me">
+        <section class="about-me hide">
             <div class="about-me-left">
                 <img src="images/mjk2.jpg" alt="">
             </div>
@@ -49,7 +69,7 @@
                 </div>
             </div>
         </section>
-        <section class="My-Bands">
+        <section class="My-Bands hide">
             <h1>My Bands</h1>
             <div class="My-Bands-Content">
                 <div class="bands-card">
@@ -72,7 +92,7 @@
                 </div>
             </div>
         </section>
-        <section class="mjk-quote">
+        <section class="mjk-quote hide">
             <h1>Quotes</h1>
             <div class="quote-box">
                 <div class="slider-arrow prev"></div>
@@ -87,7 +107,7 @@
                 <div class="slider-arrow next"></div>
             </div>
         </section>
-        <section class="misc">
+        <section class="misc hide">
             <h1>Miscellaneous Works</h1>
             <div class="misc-work">
                 <div class="misc-work-container">
@@ -119,7 +139,7 @@
                 </div>
             </div>
         </section>
-        <footer>
+        <footer class="hide">
             <div class="footer">
                 <div class="footer-info-left">
                     <h3>M<span class="orange">J</span>K</h3>
@@ -138,7 +158,7 @@
                             <li><a href="">Home</a></li>
                             <li><a href="">About</a></li>
                             <li><a href="">Portfolio</a></li>
-                            <li><a href="">About</a></li>
+                            <li><a href="">Media</a></li>
                             <li><a href="">Tour</a></li>
                             <li><a href="">Community</a></li>
                             <li><a href="">News Feed</a></li>
@@ -160,5 +180,6 @@
         </footer>
     </main>
     <script src="slider.js"></script>
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
