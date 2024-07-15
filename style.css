@@ -623,6 +623,23 @@
     border: none;
     cursor: pointer;
 }
+.footer-info{
+    max-width: 1440px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-info p{
+    font-size: 1rem;
+    color: rgb(117, 117, 117);
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}
 .hide{
     display: none;
 }
